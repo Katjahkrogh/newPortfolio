@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { TypingAnimation } from '@/components/magicui/typing-animation';
 import { TextAnimate } from '@/components/magicui/text-animate';
 
 const Hero = () => {

@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const NavBar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-transparant flex justify-between p-4 md:px-6">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white/10 dark:bg-black/10 backdrop-blur-md flex justify-between p-4 md:px-6">
       <section className="flex items-center">
         <span className="text-lg font-medium">KATJA KROGH.</span>
       </section>
