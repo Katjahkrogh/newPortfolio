@@ -5,11 +5,11 @@ import { TextAnimate } from '@/components/magicui/text-animate';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-black h-full w-full p-6 rounded-b-[100px] md:rounded-b-[180px] flex flex-col sm:flex-row justify-center items-center lg:justify-center gap-8 lg:gap-32 -mt-10 sm:-mt-12">
+    <section className="relative bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-black h-full w-full p-6 rounded-b-[90px] md:rounded-b-[180px] flex flex-col sm:flex-row justify-center items-center lg:justify-center gap-8 lg:gap-32 -mt-16 sm:-mt-32">
       <Image
         src="/portrait_cut.png"
         alt="Hero Image"
-        className="h-72 w-auto sm:h-80 md:h-96 lg:h-[30rem]"
+        className="h-64 w-auto sm:h-80 md:h-96 lg:h-[28rem]"
         width={800}
         height={800}
       />
