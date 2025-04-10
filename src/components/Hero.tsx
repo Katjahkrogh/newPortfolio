@@ -4,7 +4,7 @@ import { TextAnimate } from '@/components/magicui/text-animate';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-black h-screen w-full p-6 rounded-b-[90px] md:rounded-b-[180px] flex flex-col sm:flex-row justify-center items-center lg:justify-center gap-8 lg:gap-32 -mt-24 sm:-mt-16">
+    <section className="relative bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-black h-screen w-full p-6 rounded-b-[90px] md:rounded-b-[180px] flex flex-col sm:flex-row justify-center items-center lg:justify-center gap-8 lg:gap-32 -mt-16 sm:-mt-16">
       <Image
         src="/portrait_cut.png"
         alt="Hero Image"
