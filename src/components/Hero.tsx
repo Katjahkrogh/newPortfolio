@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-black h-screen w-full p-6 flex flex-col sm:flex-row justify-center items-center lg:justify-start gap-8 lg:gap-16 -mt-2">
       <Image
-        src="/portrait_cut.png"
+        src="/portrait_cut.webp"
         alt="Hero Image"
         className="h-64 w-auto sm:h-80 md:h-96 lg:h-[32rem] lg:ml-16"
         width={800}

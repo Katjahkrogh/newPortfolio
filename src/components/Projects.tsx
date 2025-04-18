@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <h2 className='text-3xl'>Projects</h2>
+    <h2 className='text-5xl font-light'>Projects</h2>
   )
 }
 
