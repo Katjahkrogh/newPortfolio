@@ -20,6 +20,7 @@ const About = () => {
     'MySQL',
     'Supabase',
     'Git',
+    'PhpMyAdmin',
     'Postman',
     'Figma',
   ];
@@ -38,7 +39,7 @@ const About = () => {
             eveniet, temporibus itaque aut.
           </p>
           <div className="mt-6 mb-8">
-            <h3 className="text-lg sm:text-xl font-bold">Skills</h3>
+            <h3 className="text-lg sm:text-xl">Skills</h3>
             <div className="flex flex-wrap gap-2 mt-4">
               {skills.map((skill, index) => (
                 <Badge key={index} className="text-sm font-medium">
@@ -49,10 +50,10 @@ const About = () => {
           </div>
         </section>
         <section className="flex gap-10">
-          <Separator className=" hidden lg:my-4 lg:block" orientation="vertical" />
+          <Separator className="hidden lg:my-4 lg:block" orientation="vertical" />
           <section className='flex flex-col gap-8'>
             <div>
-              <h3 className="text-lg sm:text-xl font-bold">Work Experience</h3>
+              <h3 className="text-lg sm:text-xl">Work Experience</h3>
               <div className="flex flex-col gap-4 mt-4">
                 <ResumeCard
                   logoUrl="/black-lemon_logo.webp"
@@ -73,7 +74,7 @@ const About = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-bold">Education</h3>
+              <h3 className="text-lg sm:text-xl">Education</h3>
               <div className="flex flex-col gap-4 mt-4">
                 <ResumeCard
                   logoUrl="/kea-logo.webp"

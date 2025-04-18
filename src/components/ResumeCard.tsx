@@ -31,10 +31,9 @@ export const ResumeCard = ({
   return (
     <div
       className="w-full group cursor-pointer"
-      onClick={handleExpandClick} // Make the whole card clickable
+      onClick={handleExpandClick}
     >
       <div className="flex items-start justify-between">
-        {/* Left Section: Avatar, Title, Subtitle */}
         <div className="flex items-start gap-4 flex-grow">
           <Avatar className="w-12 h-12">
             <AvatarImage src={logoUrl} alt={altText} className="object-contain" />
@@ -53,12 +52,8 @@ export const ResumeCard = ({
             {subtitle && <p className="text-sm text-gray-600 dark:text-gray-400">{subtitle}</p>}
           </div>
         </div>
-
-        {/* Right Section: Period */}
         <div className="flex-shrink-0 text-sm text-gray-500 dark:text-gray-400">{period}</div>
       </div>
-
-      {/* Description Section */}
       <motion.div
         initial={{ opacity: 0, height: 0 }}
         animate={{
@@ -70,6 +65,7 @@ export const ResumeCard = ({
           ease: [0.16, 1, 0.3, 1],
         }}
         className="mt-2 text-sm text-gray-700 dark:text-gray-300"
+        onClick={(event) => event.stopPropagation()}
       >
         {description}
       </motion.div>

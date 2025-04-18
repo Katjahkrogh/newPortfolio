@@ -15,7 +15,9 @@ export default function Home() {
       <main>
         <Hero />
         <section className="grid px-4 py-8 sm:px-16 gap-12 sm:py-12 lg:px-24 lg:gap-20 lg:py-20 xl:px-36 xl:py-28 xl:gap-28">
-          <About />
+          <BlurFade delay={0.35} inView>
+            <About />
+          </BlurFade>
           <Projects />
         </section>
       </main>

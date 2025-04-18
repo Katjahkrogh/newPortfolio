@@ -19,8 +19,9 @@ const Hero = () => {
         </p>
         <TextAnimate
           animation="blurIn"
+          once
           as="h1"
-          duration={2.2}
+          duration={2}
           className="text-4xl md:text-5xl font-medium lg:text-6xl text-primary text-pretty max-w-2xl lg:max-w-full">
           Driven by Code, Creativity and Growth – A Developer in the Making.
         </TextAnimate>
