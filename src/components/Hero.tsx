@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { TextAnimate } from '@/components/magicui/text-animate';
+import { AuroraText } from './magicui/aurora-text';
 
 const Hero = () => {
   return (
@@ -13,7 +14,9 @@ const Hero = () => {
         height={800}
       />
       <div className="flex flex-col justify-center items-center sm:items-start text-center sm:text-left lg:max-w-3xl">
-        <p className="text-xl md:text-3xl pb-1">Hi, I'm Katja 👋</p>
+        <p className="text-xl md:text-3xl pb-1">
+          Hi, I'm <AuroraText>Katja</AuroraText> 👋
+        </p>
         <TextAnimate
           animation="blurIn"
           as="h1"

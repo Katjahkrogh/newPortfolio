@@ -6,25 +6,27 @@ import { ResumeCard } from './ResumeCard';
 const About = () => {
   const skills = [
     'JavaScript',
-    'React',
     'TypeScript',
-    'CSS',
-    'Next.js',
-    'Tailwind',
     'Shopify Liquid',
+    'React',
+    'Vite',
+    'Next.js',
+    'Astro',
+    'CSS',
+    'Tailwind',
     'Docker',
-    'Python',
-    'Flask',
+    'Python (Flask)',
     'ArangoDB',
     'MySQL',
     'Supabase',
     'Git',
     'Postman',
+    'Figma',
   ];
 
   return (
     <section>
-      <h2 className="text-5xl font-light mb-4 md:mb-6">About</h2>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-light mb-4 md:mb-6">About</h2>
       <section className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <section className="mt-4 max-w-xl">
           <p className='mb-8'>
@@ -36,7 +38,7 @@ const About = () => {
             eveniet, temporibus itaque aut.
           </p>
           <div className="mt-6 mb-8">
-            <h3 className="text-xl font-bold">Skills</h3>
+            <h3 className="text-lg sm:text-xl font-bold">Skills</h3>
             <div className="flex flex-wrap gap-2 mt-4">
               {skills.map((skill, index) => (
                 <Badge key={index} className="text-sm font-medium">
@@ -50,7 +52,7 @@ const About = () => {
           <Separator className=" hidden lg:my-4 lg:block" orientation="vertical" />
           <section className='flex flex-col gap-8'>
             <div>
-              <h3 className="text-xl font-bold">Work Experience</h3>
+              <h3 className="text-lg sm:text-xl font-bold">Work Experience</h3>
               <div className="flex flex-col gap-4 mt-4">
                 <ResumeCard
                   logoUrl="/black-lemon_logo.webp"
@@ -71,7 +73,7 @@ const About = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold">Education</h3>
+              <h3 className="text-lg sm:text-xl font-bold">Education</h3>
               <div className="flex flex-col gap-4 mt-4">
                 <ResumeCard
                   logoUrl="/kea-logo.webp"
